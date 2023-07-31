@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carrito de Compras</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Carrito de Compras</h1>
+
+    <div id="items">
+
+    </div>
+
+    <div id="productos-disponibles">
+      <p>Productos disponibles:</p>
+    </div>
+
+    <div id="carrito">
+      <h2>Productos en el carrito:</h2>
+    </div>
+
+    <p id="total"></p>
+
+    <div>
+      <label for="input-producto">Producto:</label>
+      <select id="input-producto">
+        <option value="-1">Seleccione un producto</option>
+      </select>
+    </div>
+    <div>
+      <label for="input-unidades">Unidades:</label>
+      <input type="number" id="input-unidades" min="1">
+    </div>
+    <button type="button" id="btn-agregar">Agregar al carrito</button>
+    <button type="button" id="btn-finalizar">Finalizar compra</button>
+
+
+
+    <div id="total-pagar"></div>
+    <div id="detalles-compra"></div>
+    <div id="mensaje"></div>
+
+    <script src="main.js"></script>
+
+    <script>
+
+    </script>
+  </div>
+</body>
+
+</html>
